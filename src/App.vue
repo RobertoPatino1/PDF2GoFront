@@ -1,25 +1,26 @@
-<!-- <script>import Header from './components/Header.vue';</script> -->
-
 <template>
-  <v-app>
-    <v-main>
-      <Header></header>
-    </v-main>
-  </v-app>
+	<v-app>
+		<v-main>
+			<Header></Header>
+			<InputField></InputField>
+		</v-main>
+	</v-app>
 </template>
 
 <script>
-import Header from './components/Header.vue';
+	import Header from './components/Header.vue';
+	import InputField from './components/InputField.vue';
 
-export default {
-  name: 'App',
+	export default {
+		name: 'App',
 
-  components: {
-    Header,
-  },
+		components: {
+			Header,
+			InputField,
+		},
 
-  data: () => ({
-    //
-  }),
-}
+		data: () => ({
+			//
+		}),
+	};
 </script>
