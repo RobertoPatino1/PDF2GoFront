@@ -8,8 +8,8 @@
 </template>
 
 <script>
-	import Header from './components/Header.vue';
-	import InputField from './components/InputField.vue';
+	import Header from './components/shared/Header.vue';
+	import InputField from './components/liveEditor/InputField.vue';
 
 	export default {
 		name: 'App',
