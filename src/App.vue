@@ -18,7 +18,7 @@
 		name: 'App',
 		components: {
 			Header,
-			Panels,
+			LiveEditorPanel,
 		},
 		setup() {
 			const tab = ref('Live Editor'); // Valor inicial para la pestaña activa
